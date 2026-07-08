@@ -1,0 +1,260 @@
+{% extends "base.html" %}
+
+{% block title %}
+MERAKI
+{% endblock %}
+
+{% block content %}
+
+<!-- ===========================
+        HERO SECTION
+=========================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            AI • English • Literature • Writing
+        </p>
+
+        <h1 class="brand-mark">
+            MERAKI
+        </h1>
+
+        <p class="hero-text">
+
+            Your personal English companion for writing,
+            grammar, literature and vocabulary —
+            crafted to make learning feel thoughtful,
+            calm and inspiring.
+
+        </p>
+
+        <a href="#workspace" class="hero-btn">
+
+            Begin →
+
+        </a>
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<!-- ===========================
+        WORKSPACE
+=========================== -->
+
+<section
+    class="workspace"
+    id="workspace">
+
+    <div class="workspace-card">
+
+        <h2>
+
+            Ask MERAKI
+
+        </h2>
+
+        <p class="workspace-subtitle">
+
+            Grammar, literature, writing,
+            vocabulary or anything in between.
+
+        </p>
+
+        <textarea
+            id="userInput"
+            placeholder="Start writing here..."></textarea>
+
+        <button id="sendBtn">
+
+            Ask MERAKI
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- ===========================
+        ACTIVE AGENT
+=========================== -->
+
+<section class="agent-section">
+
+    <div class="info-card">
+
+        <h3>
+
+            Active Agent
+
+        </h3>
+
+        <p id="agent">
+
+            Waiting...
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- ===========================
+        RESPONSE
+=========================== -->
+
+<section class="response-section">
+
+    <div class="info-card">
+
+        <h3>
+
+            Response
+
+        </h3>
+
+        <div id="response">
+
+            Welcome to MERAKI.
+
+            Ask your first question to begin.
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- ===========================
+        FEATURES
+=========================== -->
+
+<section
+    class="features"
+    id="features">
+
+    <h2>
+
+        Explore MERAKI
+
+    </h2>
+
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+
+            📖
+
+            <h4>
+
+                Literature
+
+            </h4>
+
+            <p>
+
+                Analyze novels,
+                poetry,
+                plays and themes.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card">
+
+            ✍️
+
+            <h4>
+
+                Writing
+
+            </h4>
+
+            <p>
+
+                Essays,
+                emails,
+                creative writing
+                and reports.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card">
+
+            🌿
+
+            <h4>
+
+                Grammar
+
+            </h4>
+
+            <p>
+
+                Improve clarity,
+                correctness
+                and confidence.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="feature-card">
+
+            📚
+
+            <h4>
+
+                Vocabulary
+
+            </h4>
+
+            <p>
+
+                Learn words,
+                meanings,
+                usage and context.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+# ============================================
+# Web Framework
+# ============================================
+Flask==3.1.2
+
+# ============================================
+# LangChain Ecosystem
+# ============================================
+langgraph==0.6.6                  # Multi-agent workflow orchestration
+langchain==0.3.27                 # Core LangChain framework
+langchain-core==0.3.74            # Base interfaces used by LangChain/LangGraph
+langchain-google-genai==2.1.9     # Google Gemini integration for LangChain
+langsmith==0.4.12                 # LLM tracing, debugging, and evaluation
+
+# ============================================
+# Configuration & Data Validation
+# ============================================
+python-dotenv==1.1.1              # Load environment variables from .env
+pydantic==2.11.7                  # Data models and state validation
+typing_extensions==4.15.0         # Additional typing support for compatibility
